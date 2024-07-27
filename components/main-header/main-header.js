@@ -1,14 +1,14 @@
-import styles from './main-header.module.css';
 import NavLink from './nav-link';
 
 export default function MainHeader() {
   return (
-    <header>
+    <header id='main-header'>
+      <div id='logo'>
+        <NavLink href={'/'}>NextNews</NavLink>
+      </div>
+
       <nav>
         <ul>
-          <li>
-            <NavLink href={'/'}>Home</NavLink>
-          </li>
           <li>
             <NavLink href={'/news'}>News</NavLink>
           </li>
