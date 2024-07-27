@@ -1,6 +1,6 @@
 import { Inter, Merriweather } from 'next/font/google';
 import MainHeader from '@/components/main-header/main-header';
-import './globals.css';
+import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 const merriweather = Merriweather({ weight: '400', subsets: ['latin'] });
