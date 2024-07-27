@@ -7,3 +7,5 @@
 - [next client-components](https://nextjs.org/docs/app/building-your-application/rendering/client-components)
 - [next intercepting-routes](https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes)
 - [next route-groups-and-private-folders](https://nextjs.org/docs/getting-started/project-structure#route-groups-and-private-folders)
+- [next route-handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+- [next routing/middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
