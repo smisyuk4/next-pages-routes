@@ -5,3 +5,4 @@
 - [next catch-all-segments](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#catch-all-segments)
 - [next server-components](https://nextjs.org/docs/app/building-your-application/rendering/server-components)
 - [next client-components](https://nextjs.org/docs/app/building-your-application/rendering/client-components)
+- [next intercepting-routes](https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes)
