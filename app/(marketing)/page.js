@@ -1,9 +1,22 @@
-import logo from '@/assets/logo.jpg';
+'use client';
+
 import Link from 'next/link';
+import logo from '@/assets/logo.jpg';
+import AuthForm from '@/components/auth-form/auth-form';
+import { signOut } from '@/lib/firebase/firestore/auth';
+import useAuth from '@/lib/hooks/useAuth';
 
 export default function HomePage() {
+  const user = useAuth();
+
+  const handleSignOut = () => {
+    signOut();
+  };
+
   return (
     <main id='home'>
+      {user ? <button onClick={handleSignOut}>SignOut</button> : <AuthForm />}
+
       <img src={logo.src} alt='A newspaper' />
       <h1>A News Site For The Next Generation</h1>
       <p>

@@ -14,3 +14,5 @@
 - [next routing/middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
 - [next fetching-caching-and-revalidating](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating)
 - [tanstack query](https://tanstack.com/query/v4)
+
+## Firebase
